@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Home</title>
+  <body class="lift:content_id=main">
+	<div id="main" class="lift:surround?with=default;at=content">
+	  <head_merge>
+      	<style type="text/css">
+		.selected-row {
+			background-color:rgba(247, 247, 15, 0.5) !important;
+			font-style: italic;
+		}
+		</style>
+	  </head_merge>
+      <form data-lift="form.ajax">
+	    <div data-lift="ProductsOps.edit"  style="position: relative;" id="edit-product-form">
+	    <h2 id="product-page-title">#Form title goes here</h2>
+	   	<table>
+	    	<tr>
+	          <td>Name</td>
+	          <td><input id="name" type="text" /></td>
+	          <td>Enabled</td>
+	          <td><input id="enabled" type="checkbox" /></td>
+	        </tr>
+	        <tr>
+	          <td>Price</td>
+	          <td><input id="price" type="number" /></td>
+	          <td></td><td></td>
+	        </tr>
+	    </table>
+	    <input style="float: right;" id="submit" type="submit" /> 
+	    <input style=" display: inline; float: right;" id="reset" type="reset" />
+	    </div>
+	  </form>
+	  <hr>
+	  <h2>Product List</h2>
+	  
+	  <div data-lift="ProductsOps.list">
+	    <table>
+	      <thead>
+	        <tr>
+	          <th>Name</th>
+	          <th>Price</th>
+	          <th>Enabled</th>
+	          <th>Actions</th>
+	        </tr>
+	      </thead>
+	      <tbody id="products-list">
+	        <tr class="row">
+	          <td class="product-name">Product Name</td>
+	          <td class="product-price">Unit Price</td>
+	          <td class="product-enabled">Enabled</td>
+	          <td class="product-actions">Actions </td>
+	        </tr>
+	      </tbody>
+	    </table>
+	  </div>
+    </div>
+  </body>
+</html>
+

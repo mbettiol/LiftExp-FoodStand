@@ -1,0 +1,21 @@
+https://www.assembla.com/spaces/liftweb/wiki/Getting_Started
+http://docs.scala-lang.org/tutorials/tour/named-parameters.html
+
+https://fmpwizard.telegr.am/blog/lift_sitemap
+https://fortylines.com/blog/nginxJettyLift.blog.html
+
+-- primi passi in SCALA
+http://www.artima.com/scalazine/articles/steps.html
+
+-- bell'articolo su Lift+CRUD
+http://tech.damianhelme.com/diy-lift-crud-an-alternative-to-crudify/
+
+--
+https://groups.google.com/forum/#!topic/liftweb/Zxa2Nu-d5-c
+
+  // some interesting links 
+  //
+  // http://stackoverflow.com/questions/18491742/lift-crud-with-designer-friendly-templates-and-ajax
+  // https://groups.google.com/forum/#!topic/liftweb/hb0TCxmTaZE
+  // http://exploring.liftweb.net/master/index-5.html#sub:CSS-Selector-Transforms
+  // https://www.assembla.com/wiki/show/liftweb/binding_via_css_selectors

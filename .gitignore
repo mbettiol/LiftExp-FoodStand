@@ -1,0 +1,50 @@
+##Project Specific STUFF
+*.db
+
+## Eclipse STUFF
+.cache
+.settings
+.classpath
+.project
+
+## Scala STUFF
+*.class
+*.log
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+## OSX Stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows Stuff
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
